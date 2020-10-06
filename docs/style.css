@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(134, 207, 255), rgb(28, 153, 255)) ;
+    color: rgb(35,35,35);
+    font-family: "Monserrat", sans-serif;
+}
+
+img {
+    float: left;
+}
+
+div.First {
+    width: 700px;
+    height: 950px;
+    float: left;
+}
+
+div.Second {
+    width: 500px;
+    height: 950px;
+    float: left;
+    position: absolute;
+    top: 320px;
+    left: 1000px;
+}
+
+header {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+button {
+    background-color: rgb(134, 207, 255);
+    padding: 15px 35px;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid rgb(28, 153, 255);
+    border-radius: 4px;
+    position: absolute;
+    top: 400px;
+    left: 75px;
+}
