@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
 body {
-    background-image: linear-gradient(to right, rgb(134, 207, 255), rgb(28, 153, 255)) ;
+    background-image: linear-gradient(to right, rgb(134, 207, 255), rgb(28, 153, 255));
     color: rgb(35,35,35);
     font-family: "Monserrat", sans-serif;
 }
@@ -12,17 +12,15 @@ img {
 
 div.First {
     width: 700px;
-    height: 950px;
     float: left;
 }
 
 div.Second {
     width: 500px;
-    height: 950px;
     float: left;
     position: absolute;
     top: 320px;
-    left: 1000px;
+    left: 700px;
 }
 
 header {
@@ -49,5 +47,5 @@ button {
     border-radius: 4px;
     position: absolute;
     top: 400px;
-    left: 75px;
+    left: 70px;
 }
