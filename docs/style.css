@@ -4,37 +4,42 @@ body {
     background-image: linear-gradient(to right, rgb(134, 207, 255), rgb(28, 153, 255));
     color: rgb(35,35,35);
     font-family: "Monserrat", sans-serif;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: repeat(5, 200px);
+    grid-column-gap: 60px;
 }
 
-img {
-    float: left;
-}
-
-div.First {
-    width: 700px;
-    float: left;
-}
-
-div.Second {
-    width: 500px;
-    float: left;
-    position: absolute;
-    top: 320px;
-    left: 700px;
+.image {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 5;
 }
 
 header {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
     font-size: 60px;
     font-weight: 800;
     text-align: center;
 }
 
 p {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
     text-align: center;
     font-size: 35px;
     font-weight: 500;
 }
 
+a {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
 
 button {
     background-color: rgb(134, 207, 255);
@@ -45,7 +50,9 @@ button {
     font-size: 20px;
     border: 3px solid rgb(28, 153, 255);
     border-radius: 4px;
-    position: absolute;
-    top: 400px;
-    left: 70px;
+    margin: 0px 150px;
+}
+
+button:hover {
+    background-color: rgb(28, 153, 255);
 }
